@@ -8,7 +8,7 @@ SHELL ["powershell", "-Command", "$ErrorActionPreference = 'Stop'; $ProgressPref
 # Remoting versions can be found in Remoting sub-project changelog
 # https://github.com/jenkinsci/remoting/blob/master/CHANGELOG.md
 ENV SLAVE_FILENAME=slave.jar `
-    REMOTING_VERSION=3.15
+    REMOTING_VERSION=3.20
 
 ENV SLAVE_HASH_FILENAME=$SLAVE_FILENAME.sha1
 
